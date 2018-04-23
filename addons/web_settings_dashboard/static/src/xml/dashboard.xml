@@ -187,6 +187,7 @@
     </t>
 
     <t t-name="DashboardEnterprise">
+        <!--
         <hr class="mt16"/>
         <div class="text-center o_web_settings_dashboard_enterprise">
             <div class="text-center o_web_settings_dashboard_enterprise">
@@ -198,9 +199,11 @@
                 </div>
             </div>
         </div>
+        -->
     </t>
-<!--
+
     <t t-name="DashboardTranslations">
+        <!--
         <div class="text-center o_web_settings_dashboard_translations mt8">
             <i class="fa fa-globe fa-4x text-muted"></i>
             <div class="o_web_settings_dashboard_header">
@@ -215,8 +218,9 @@
                 <a class="btn btn-primary btn-block o_load_translations"><strong>Load a Translation</strong></a>
             </div>
         </div>
+        -->
     </t>
-    -->
+
 
     <t t-name="DashboardCompany">
         <div class="text-center o_web_settings_dashboard_company mt8">
