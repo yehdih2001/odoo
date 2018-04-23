@@ -191,9 +191,9 @@ var UpgradeRadio = FieldRadio.extend(AbstractFieldUpgrade, {
         this.$('input').first().prop("checked", true).click();
     },
 });
-/*
+
 field_registry
     .add('upgrade_boolean', UpgradeBoolean)
-    .add('upgrade_radio', UpgradeRadio);*/
+    .add('upgrade_radio', UpgradeRadio);
 
 });
