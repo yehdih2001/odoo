@@ -41,13 +41,16 @@
                     No app installed
                 </t>
             </div>
+            <!--
             <div>
                 <a class="btn btn-primary btn-block o_browse_apps" role="button"><strong>Browse Apps</strong></a>
             </div>
+
             <div class="o_web_settings_dashboard_pills">
                 <a href="https://www.odoo.com/apps/modules" target="_blank" class="pull-left"><i class="fa fa-rocket fa-2x text-muted"/> App store</a>
                 <a href="https://www.odoo.com/apps/themes" target="_blank" class="pull-right"><i class="fa fa-picture-o fa-2x text-muted"/> Theme store</a>
             </div>
+            -->
             <div class="clearfix"/>
         </div>
     </t>
@@ -104,8 +107,10 @@
             <hr/>
             <t t-set="planners" t-value="widget.planners"/>
             <t t-call="DashboardPlanner.PlannersList"/>
+            <!--
             <hr/>
             Need more help? <a target="_blank" href="https://www.odoo.com/documentation/user">Browse the documentation.</a>
+            -->
         </div>
     </t>
 
@@ -135,6 +140,7 @@
     <t t-name="DashboardShare">
         <div class="text-center o_web_settings_dashboard_share">
             <i class="fa fa-share-alt fa-4x text-muted"/>
+            <!--
             <div class="o_web_settings_dashboard_header">Share the Love</div>
             <div>
                 <small class="text-muted text-center o_web_settings_dashboard_compact_subtitle">
@@ -147,6 +153,7 @@
                 <div class="col-xs-4"><a href="#"><i class="fa fa-linkedin-square fa-4x li_share"/></a></div>
             </div>
             <hr/>
+            -->
             <t t-set="server_version" t-value="widget.data.server_version"/>
             <t t-set="debug" t-value="widget.data.debug"/>
             <div class="row">
@@ -192,7 +199,7 @@
             </div>
         </div>
     </t>
-
+<!--
     <t t-name="DashboardTranslations">
         <div class="text-center o_web_settings_dashboard_translations mt8">
             <i class="fa fa-globe fa-4x text-muted"></i>
@@ -209,6 +216,7 @@
             </div>
         </div>
     </t>
+    -->
 
     <t t-name="DashboardCompany">
         <div class="text-center o_web_settings_dashboard_company mt8">
