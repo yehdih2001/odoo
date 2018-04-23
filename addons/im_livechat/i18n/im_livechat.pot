@@ -327,8 +327,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "For website built with Odoo CMS, please install the website_livechat module. Then go to Website Admin &gt; Configuration &gt; Settings and select the Website Live Chat Channel you want to add on your website."
-msgstr ""
-
+msgstr "For website built with GStock CMS, please install the website_livechat module. Then go to Website Admin &gt; Configuration &gt; Settings and select the Website Live Chat Channel you want to add on your website."
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule_sequence
 msgid "Given the order to find a matching rule. If 2 rules are matching for the given url/country, the one with the lowest sequence will be chosen."
@@ -604,8 +603,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Operators that do not show any activity In Odoo for more than 30 minutes will be considered as disconnected."
-msgstr ""
-
+msgstr "Operators that do not show any activity In GStock for more than 30 minutes will be considered as disconnected."
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Options"

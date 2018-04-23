@@ -33,7 +33,7 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: GStock Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
@@ -271,7 +271,7 @@ msgstr "Le jeton doit être unique !"
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
 msgid "About your Odoo usage"
-msgstr "À propos de votre utilisation d'Odoo"
+msgstr "À propos de votre utilisation dans GStock"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -350,7 +350,7 @@ msgstr "Archivé/s"
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
 msgid "Are you using Odoo on a daily basis?"
-msgstr "Utilisez-vous Odoo de manière quotidienne ?"
+msgstr "Utilisez-vous GStock de manière quotidienne ?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -727,7 +727,7 @@ msgstr "Regrouper par"
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
 msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Comment contribuez-vous ou prévoyez-vous contribuer à Odoo?"
+msgstr "Comment contribuez-vous ou prévoyez-vous contribuer à GStock?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -762,7 +762,7 @@ msgstr "Je participe aux discussions et forums"
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
 msgid "I use Github, like all official Odoo projects"
-msgstr "J'utilise Github, comme tous les projets officiels d'Odoo"
+msgstr "J'utilise Github, comme tous les projets officiels dans GStock"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -772,7 +772,7 @@ msgstr "J'utilise un autre système de dépôts (SourceForge...)"
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
 msgid "I use the contextual help in Odoo"
-msgstr "J'utilise l'aide contextuelle dans Odoo"
+msgstr "J'utilise l'aide contextuelle dans GStock"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -839,7 +839,7 @@ msgstr "Si autre, précisez:"
 #: model:survey.page,description:survey.feedback_4
 msgid "If you do not contribute or develop in Odoo, skip this page."
 msgstr ""
-"Si vous ne contribuez pas et ou ne dévlopper pas pour Odoo, veuillez sauter "
+"Si vous ne contribuez pas et ou ne dévlopper pas pour GStock, veuillez sauter "
 "cette page."
 
 #. module: survey
@@ -1809,7 +1809,7 @@ msgid ""
 "These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
 "what have been your difficulties."
 msgstr ""
-"Ces questions concernent l'ergonomie et la prise en main d'Odoo. Essayez de vous rappeler de vos premiers pas sur Odoo et\n"
+"Ces questions concernent l'ergonomie et la prise en main dans GStock. Essayez de vous rappeler de vos premiers pas sur GStock et\n"
 "quelles ont été vos difficultés"
 
 #. module: survey
@@ -1825,7 +1825,7 @@ msgstr "Ils sont utiles pour un usage quotidien"
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
 msgid "They help new users to understand Odoo"
-msgstr "Ils aident les nouveaux utilisateurs à comprendre Odoo"
+msgstr "Ils aident les nouveaux utilisateurs à comprendre GStock"
 
 #. module: survey
 #: code:addons/survey/models/survey.py:544
@@ -2079,7 +2079,7 @@ msgid ""
 "What do you think about the process views of Odoo, available in the web "
 "client ?"
 msgstr ""
-"Que pensez-vous des vues processus d'Odoo, disponibles dans le client web ?"
+"Que pensez-vous des vues processus dans GStock, disponibles dans le client web ?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2119,7 +2119,7 @@ msgstr "Oui, j'utilise la version 7.0, installée localement"
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
 msgid "Yes, I use the online version of Odoo"
-msgstr "Oui, j'utilise la version en ligne d'Odoo"
+msgstr "Oui, j'utilise la version en ligne dans GStock"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form

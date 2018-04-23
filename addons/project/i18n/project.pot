@@ -118,8 +118,107 @@ msgid "\n"
 "                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
-msgstr ""
-
+msgstr "\n"
+"            <div style=\"margin: 10px auto;\">\n"
+"            % set last_created_project = user.env['project.project'].search([('alias_id','!=',False)], order=\"create_date desc\")[0]\n"
+"            <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:100%;\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:2px;width:30%;\">\n"
+"                            <img src=\"web/static/src/img/logo.png\"/>\n"
+"                        </td>\n"
+"                        <td style=\"vertical-align: top; padding: 8px 10px;text-align: left;font-size: 14px;\">\n"
+"                            <a href=\"web/login\" style=\"float:right ;margin:15px auto;background: #875A7B;border-radius: 5px;color: #ffffff;font-size: 16px;padding: 10px 20px 10px 20px;text-decoration: none;\">Auto Login</a>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"            <table style=\"width:100%;text-align:justify;margin:0 auto;border-collapse:collapse;border-top:1px solid lightgray\"\">\n"
+"                <tbody>\n"
+"                    <tr>\n"
+"                        <td style=\"padding:15px 10px;font-size:20px\">\n"
+"                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                <span>Your GStock Project application is up and running</span></p><br>\n"
+"                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                <span style=\"font-size:13px;font-weight:bold;\">What’s next?</span></p>\n"
+"                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
+"                                % if last_created_project:\n"
+"                                    <li dir=\"ltr\">\n"
+"                                        <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                            <span>Try creating a task by sending an email to </span>\n"
+"                                            <a href=\"mailto:${last_created_project.alias_id.name_get()[0][1] if last_created_project.alias_id.alias_domain else user.company_id.email}\">\n"
+"                                                <span style=\"font-weight:bold; text-decoration:underline;\">${last_created_project.alias_id.name_get()[0][1] if last_created_project.alias_id.alias_domain else user.company_id.email}</span>\n"
+"                                            </a>\n"
+"                                        </p>\n"
+"                                    </li>\n"
+"                                % endif\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                        <span><a href=\"/web#view_type=list&model=res.users&action=base.action_res_users\">\n"
+"                                            <span style=\"font-weight:bold; text-decoration:underline;\">Invite new users</span></a></span>\n"
+"                                        <span>to collaborate</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                            </ul> <br>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                <span style=\"font-weight:bold;\">Discover the </span>\n"
+"                                <span><a href=\"/web#view_type=kanban&model=project.project&action=project.open_view_project_all\">\n"
+"                                    <span style=\"font-weight:bold; text-decoration:underline;\">project planner</span></a></span>\n"
+"                                <span> to activate extra features</span>\n"
+"                                <span style=\"color:#875A7B;margin:0;font-weight:bold\">(${user.env['web.planner'].get_planner_progress('planner_project')}% done)</span>\n"
+"                            </p>\n"
+"                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                        <span>Track hours with timesheets,</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                        <span>Plan tasks and resources with forecasts,</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                        <span>Get smart reporting and accurate dashboards,</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:0pt;\">\n"
+"                                        <span>Bill time on tasks or issues,</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                                <li dir=\"ltr\">\n"
+"                                    <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                        <span>And much more...</span>\n"
+"                                    </p>\n"
+"                                </li>\n"
+"                            </ul>\n"
+"                            <br>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;line-height:1.3;margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                <span style=\"font-weight:bold;\">Need Help?</span>\n"
+"                                <span style=\"font-style:italic;\">You’re not alone</span>\n"
+"                            </p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
+"                                <span>We would be delighted to assist you along the way. Contact us through our\n"
+"                                <a href=\"https://www.gstock.mr/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of GStock Project with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.gstock.mr/documentation/user/11.0/project.html\">\n"
+"                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
+"                                </span><span> or with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.gstock.mr/documentation\">\n"
+"                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
+"                            </p>\n"
+"                            <br>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your GStock experience,</span></p>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </tbody>\n"
+"            </table>\n"
+"            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
+"                <span><br/>-- <br/>The GStock Team<br/>PS: People love GStock, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
+"            </div>\n"
+"        </div>"
 #. module: project
 #: model:mail.template,body_html:project.mail_template_data_project_task
 msgid "\n"
@@ -170,8 +269,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "- The Odoo Team"
-msgstr ""
-
+msgstr "- The GStock Team"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "1. Learn about Tasks and Timesheets."
@@ -314,8 +412,10 @@ msgid "<span class=\"panel-title\">\n"
 "                                            <span class=\"fa fa-tasks\"/>\n"
 "                                            <strong> Directly in Odoo</strong>\n"
 "                                        </span>"
-msgstr ""
-
+msgstr "<span class=\"panel-title\">\n"
+"                                            <span class=\"fa fa-tasks\"/>\n"
+"                                            <strong> Directly in GStock</strong>\n"
+"                                        </span>"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<span class=\"panel-title\">\n"
@@ -419,8 +519,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>A great feature in Odoo is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
 "                            It replaces the standard Description area in Tasks and is extremely useful for several cases."
-msgstr ""
-
+msgstr "<strong>A great feature in GStock is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
+"                            It replaces the standard Description area in Tasks and is extremely useful for several cases."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>About Employees:</strong>"
@@ -457,8 +557,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Be careful about the messages you send</strong><br/>\n"
 "                                    Sending a message through Odoo will automatically send an email containing your message to all the followers including internal employees, external users or customers."
-msgstr ""
-
+msgstr "<strong>Be careful about the messages you send</strong><br/>\n"
+"                                    Sending a message through GStock will automatically send an email containing your message to all the followers including internal employees, external users or customers."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Billing</strong>"
@@ -484,8 +584,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Create tasks by email</strong><br/>\n"
 "                                In Odoo, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
-msgstr ""
-
+msgstr "<strong>Create tasks by email</strong><br/>\n"
+"                                In GStock, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_project
 msgid "<strong>Customer</strong>"
@@ -636,8 +736,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>Rely on the chatter</strong><br/>\n"
 "                                    Below every Task (or more generally, below every Document in Odoo) is an area called Chatter."
-msgstr ""
-
+msgstr "<strong>Rely on the chatter</strong><br/>\n"
+"                                    Below every Task (or more generally, below every Document in GStock) is an area called Chatter."
 #. module: project
 #: model:ir.ui.view,arch_db:project.portal_my_task
 msgid "<strong>Reported by</strong>"
@@ -695,8 +795,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>What do you expect</strong> from using Odoo Project?"
-msgstr ""
-
+msgstr "<strong>What do you expect</strong> from using GStock Project?"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "<strong>You have different users writing Tasks descriptions</strong><br/>\n"
@@ -724,8 +823,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "A project usually involves many stakeholders, be it the project's sponsor, resources, customers or external contractors. But the most important person in a project is usually the Project Manager.<br/>\n"
 "                    In Odoo, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
-msgstr ""
-
+msgstr "A project usually involves many stakeholders, be it the project's sponsor, resources, customers or external contractors. But the most important person in a project is usually the Project Manager.<br/>\n"
+"                    In GStock, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_kanban_state
 msgid "A task's kanban state indicates special situations affecting it:\n"
@@ -1003,8 +1102,9 @@ msgstr ""
 msgid "But because change is never easy, we've created this Planner to guide you.<br/>\n"
 "                        For example, you'll understand why you shouldn’t use Odoo to plan but instead to\n"
 "                        collaborate, or why organizing your projects by role is wrong."
-msgstr ""
-
+msgstr "But because change is never easy, we've created this Planner to guide you.<br/>\n"
+"                        For example, you'll understand why you shouldn’t use GStock to plan but instead to\n"
+"                        collaborate, or why organizing your projects by role is wrong."
 #. module: project
 #: model:project.task,legend_done:project.project_task_10
 #: model:project.task,legend_done:project.project_task_11
@@ -1157,8 +1257,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Congratulations on choosing Odoo Project to help running your company more efficiently!"
-msgstr ""
-
+msgstr "Congratulations on choosing GStock Project to help running your company more efficiently!"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Congratulations, you're done !"
@@ -1276,8 +1375,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Creating Tasks is the next step in managing your Projects.<br/>\n"
 "                        In Odoo, it is pretty straightforward, but here are some explanations you may find useful."
-msgstr ""
-
+msgstr "Creating Tasks is the next step in managing your Projects.<br/>\n"
+"                        In GStock, it is pretty straightforward, but here are some explanations you may find useful."
 #. module: project
 #: model:ir.ui.view,arch_db:project.view_task_project_user_search
 msgid "Creation Date"
@@ -1418,8 +1517,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Depending on what you need and how you want to operate, there are several ways to work with Odoo. First, decide if you want to think in terms of tasks. Then, activate the Timesheets app if you need it."
-msgstr ""
-
+msgstr "Depending on what you need and how you want to operate, there are several ways to work with GStock. First, decide if you want to think in terms of tasks. Then, activate the Timesheets app if you need it."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Deploy"
@@ -1587,14 +1685,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Even if there is no specific field in Odoo, it's important to define a person responsible for each stage of your Project.<br/>\n"
 "                        This person will have the responsibility for validating each stage and ensuring that the requirements to move to the next stage are met."
-msgstr ""
-
+msgstr "Even if there is no specific field in GStock, it's important to define a person responsible for each stage of your Project.<br/>\n"
+"                        This person will have the responsibility for validating each stage and ensuring that the requirements to move to the next stage are met."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Every business is different.<br/>\n"
 "                    Odoo allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
-msgstr ""
-
+msgstr "Every business is different.<br/>\n"
+"                    GStock allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Examples"
@@ -1675,8 +1773,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr ""
-
+msgstr "For the GStock Team,<br/>\n"
+"                            Fabien Pinckaers, Founder"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "For the same reason, don't create a Project based on weeks or time (example: Scrum)."
@@ -1705,8 +1803,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get full synchronization with Odoo"
-msgstr ""
-
+msgstr "Get full synchronization with GStock"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Get it on Google Play"
@@ -1987,8 +2084,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Internal notes are messages that will appear in the Chatter but will not be notified in Odoo's Inbox."
-msgstr ""
-
+msgstr "Internal notes are messages that will appear in the Chatter but will not be notified in GStock's Inbox."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_tags_search_view
 msgid "Issue Version"
@@ -2017,14 +2113,14 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "It is time to think about how you will transform your activities into real projects in Odoo.<br/>\n"
 "                        For that, the most important part is defining the stages of your projects. Stages are the different steps a task can go through, from its creation to its ending. They will appear in what we call the 'Kanban' view of your projects."
-msgstr ""
-
+msgstr "It is time to think about how you will transform your activities into real projects in GStock.<br/>\n"
+"                        For that, the most important part is defining the stages of your projects. Stages are the different steps a task can go through, from its creation to its ending. They will appear in what we call the 'Kanban' view of your projects."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "It's essential to be clear about why you want to use Odoo Project and what your goals are.\n"
 "                        Indeed, there are many ways to manage a project, to find the best one for you, you need to know exactly what you want to achieve. And later on, we will hopefully transform your objectives into real improvements for your company."
-msgstr ""
-
+msgstr "It's essential to be clear about why you want to use GStock Project and what your goals are.\n"
+"                        Indeed, there are many ways to manage a project, to find the best one for you, you need to know exactly what you want to achieve. And later on, we will hopefully transform your objectives into real improvements for your company."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "It's for logging every change, event or message related to the Document."
@@ -2184,8 +2280,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Managing notifications is essential: too few and you risk missing critical information, too many and you will be  overloaded with unnecessary information. The trick is to find the right balance between the projects, stages and tasks you want to be informed about. Fortunately, Odoo Project has many levels of notifications and messages you can choose from."
-msgstr ""
-
+msgstr "Managing notifications is essential: too few and you risk missing critical information, too many and you will be  overloaded with unnecessary information. The trick is to find the right balance between the projects, stages and tasks you want to be informed about. Fortunately, GStock Project has many levels of notifications and messages you can choose from."
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Marketing Department"
@@ -2371,13 +2466,13 @@ msgstr ""
 msgid "Odoo Project is a super fast and easy way to make your activities and tasks visible to\n"
 "                        everyone in your company. Follow how things progress, see when things are stuck, know\n"
 "                        who's in charge, all in one place."
-msgstr ""
-
+msgstr "GStock Project is a super fast and easy way to make your activities and tasks visible to\n"
+"                        everyone in your company. Follow how things progress, see when things are stuck, know\n"
+"                        who's in charge, all in one place."
 #. module: project
 #: model:ir.actions.act_window,help:project.action_view_task
 msgid "Odoo's project management allows you to manage the pipeline of your tasks efficiently. You can track progress, discuss on tasks, attach documents, etc."
-msgstr ""
-
+msgstr "GStock's project management allows you to manage the pipeline of your tasks efficiently. You can track progress, discuss on tasks, attach documents, etc."
 #. module: project
 #: code:addons/project/models/project.py:200
 #: selection:project.project,privacy_visibility:0
@@ -2798,8 +2893,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Runs outside Odoo, always available"
-msgstr ""
-
+msgstr "Runs outside GStock, always available"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Scrum Methodology"
@@ -3216,8 +3310,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Tasks are the main mechanism in Odoo and are activated by default."
-msgstr ""
-
+msgstr "Tasks are the main mechanism in GStock and are activated by default."
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
 msgid "Tasks by user and project"
@@ -3252,8 +3345,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "The Odoo Project app can be used to manage many activities, from the development of a new product to the daily operations of a customer support. With some creativity, it can even be used to manage your marketing communications or personal projects. But just because it can be done doesn't mean it's always a good idea: let's start by helping you understand what can be a good project."
-msgstr ""
-
+msgstr "The GStock Project app can be used to manage many activities, from the development of a new product to the daily operations of a customer support. With some creativity, it can even be used to manage your marketing communications or personal projects. But just because it can be done doesn't mean it's always a good idea: let's start by helping you understand what can be a good project."
 #. module: project
 #: model:ir.ui.view,arch_db:project.mail_template_task_merge
 msgid "The following task has been merged into this one:"
@@ -3267,8 +3359,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_model_id
 msgid "The model (Odoo Document Kind) to which this alias corresponds. Any incoming email that does not reply to an existing record will cause the creation of a new record of this model (e.g. a Project Task)"
-msgstr ""
-
+msgstr "The model (GStock Document Kind) to which this alias corresponds. Any incoming email that does not reply to an existing record will cause the creation of a new record of this model (e.g. a Project Task)"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid "The name of the email alias, e.g. 'jobs' if you want to catch emails for <jobs@example.odoo.com>"
@@ -3383,8 +3474,9 @@ msgstr ""
 msgid "Timesheets are often essential for running a company.<br/>\n"
 "                    They are also prone to human error, repetitive, annoying, and sometimes stressful to employees.<br/>\n"
 "                    Fortunately, Odoo has several solutions to make them as efficient and painless as possible!<br/>"
-msgstr ""
-
+msgstr "Timesheets are often essential for running a company.<br/>\n"
+"                    They are also prone to human error, repetitive, annoying, and sometimes stressful to employees.<br/>\n"
+"                    Fortunately, GStock has several solutions to make them as efficient and painless as possible!<br/>"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Timesheets can be used for several purposes:"
@@ -3749,8 +3841,7 @@ msgstr ""
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_module_install_project
 msgid "Your Odoo Project application is up and running"
-msgstr ""
-
+msgstr "Your GStock Project application is up and running"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid "Your Projects"

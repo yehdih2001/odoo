@@ -48,7 +48,7 @@
 # fr rev <e2ffr04@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
@@ -3424,7 +3424,7 @@ msgstr "ex. Lampes"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "e.g. Odoo Enterprise Subscription"
-msgstr "p. ex. Abonnement à Odoo Entreprise"
+msgstr "p. ex. Abonnement à GStock"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_pricelist_view

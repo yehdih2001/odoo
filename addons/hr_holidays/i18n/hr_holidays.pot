@@ -967,8 +967,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid "Once a leave is validated, Odoo will create a corresponding meeting of this type in the calendar."
-msgstr ""
-
+msgstr "Once a leave is validated, GStock will create a corresponding meeting of this type in the calendar."
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.open_ask_holidays
 msgid "Once you have recorded your leave request, it will be sent\n"
@@ -1350,8 +1349,8 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid "You can assign remaining Legal Leaves for each employee, Odoo\n"
 "               will automatically create and validate allocation requests."
-msgstr ""
-
+msgstr "You can assign remaining Legal Leaves for each employee, GStock\n"
+"               will automatically create and validate allocation requests."
 #. module: hr_holidays
 #: code:addons/hr_holidays/models/hr_holidays.py:249
 #, python-format

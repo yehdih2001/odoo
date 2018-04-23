@@ -379,8 +379,7 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_0
 msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo Programming</i></font>"
-msgstr ""
-
+msgstr "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>GStock Programming</i></font>"
 #. module: event
 #: model:event.event,description:event.event_1
 msgid "<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>technical aspects</i></font>"
@@ -1446,22 +1445,21 @@ msgstr ""
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Odoo Official Website"
-msgstr ""
-
+msgstr "GStock Official Website"
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
 msgid "Odoo Web Client"
-msgstr ""
-
+msgstr "GStock Web Client"
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid "Odoo helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation emails,\n"
 "    sell tickets, etc."
-msgstr ""
-
+msgstr "GStock helps you schedule and efficiently organize your events:\n"
+"    track registrations and participations, automate the confirmation emails,\n"
+"    sell tickets, etc."
 #. module: event
 #: model:event.type,name:event.event_type_data_online
 #: model:ir.ui.view,arch_db:event.view_event_form

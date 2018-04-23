@@ -1092,8 +1092,9 @@ msgstr ""
 msgid "Manage all your contracts (leasing, insurances, etc.) with\n"
 "            their related services, costs. Odoo will automatically warn\n"
 "            you when some contracts have to be renewed."
-msgstr ""
-
+msgstr "Manage all your contracts (leasing, insurances, etc.) with\n"
+"            their related services, costs. GStock will automatically warn\n"
+"            you when some contracts have to be renewed."
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
 msgid "Management Fee"
@@ -1312,28 +1313,30 @@ msgstr ""
 msgid "Odoo helps you keeping track of all the services done\n"
 "            on your vehicle. Services can be of many type: occasional\n"
 "            repair, fixed maintenance, etc."
-msgstr ""
-
+msgstr "GStock helps you keeping track of all the services done\n"
+"            on your vehicle. Services can be of many type: occasional\n"
+"            repair, fixed maintenance, etc."
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_action
 msgid "Odoo helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
-msgstr ""
-
+msgstr "GStock helps you managing the costs for your different\n"
+"                vehicles. Costs are created automatically from services,\n"
+"                contracts (fixed or recurring) and fuel logs."
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid "Odoo helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
-msgstr ""
-
+msgstr "GStock helps you managing the costs for your different vehicles\n"
+"          Costs are generally created from services and contract and appears here."
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid "Odoo will warn you when services or contract have to be\n"
 "            renewed."
-msgstr ""
-
+msgstr "GStock will warn you when services or contract have to be\n"
+"            renewed."
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_31
 msgid "Oil Change"
@@ -1684,8 +1687,8 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid "Thanks to the different filters, Odoo can only print the effective\n"
 "          costs, sort them by type and by vehicle."
-msgstr ""
-
+msgstr "Thanks to the different filters, GStock can only print the effective\n"
+"          costs, sort them by type and by vehicle."
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_43
 msgid "Thermostat Replacement"

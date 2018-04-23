@@ -21,7 +21,7 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-23 07:43+0000\n"
 "PO-Revision-Date: 2018-02-23 07:43+0000\n"
@@ -312,7 +312,7 @@ msgstr "Pas de réponse du serveur (connecté au réseau?)"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:567
 #, python-format
 msgid "Odoo error while processing transaction."
-msgstr "Erreur Odoo pendant le traitement de la transaction."
+msgstr "Erreur GStock pendant le traitement de la transaction."
 
 #. module: pos_mercury
 #. openerp-web

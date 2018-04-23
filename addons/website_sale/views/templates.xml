@@ -1589,7 +1589,7 @@
         <xpath expr="//footer" position="inside">
             <div class="container mt16 mb8">
                 <div class="pull-right" t-ignore="true" t-if="not editable">
-                                                      Powered by <a target="_blank" class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a>,
+                                                      Powered by <a target="_blank" class="label label-danger" href="http://www.gstock.mr/page/website-builder">GStock</a>,
                                                       the #1 <a target="_blank" href="http://www.odoo.com/page/e-commerce">Open Source eCommerce</a>.
                                                     </div>
                 <div class="pull-left text-muted">

@@ -199,8 +199,7 @@ msgstr ""
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
 msgid "About your Odoo usage"
-msgstr ""
-
+msgstr "About your GStock usage"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
 msgid "Active"
@@ -273,8 +272,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
 msgid "Are you using Odoo on a daily basis?"
-msgstr ""
-
+msgstr "Are you using GStock on a daily basis?"
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
 msgid "Attachments"
@@ -633,8 +631,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
 msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr ""
-
+msgstr "How do you contribute or plan to contribute to GStock?"
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
 msgid "Human Resources"
@@ -668,8 +665,7 @@ msgstr ""
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
 msgid "I use Github, like all official Odoo projects"
-msgstr ""
-
+msgstr "I use Github, like all official GStock projects"
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
 msgid "I use another repository system (SourceForge...)"
@@ -678,8 +674,7 @@ msgstr ""
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
 msgid "I use the contextual help in Odoo"
-msgstr ""
-
+msgstr "I use the contextual help in GStock"
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
 msgid "I write documentations"
@@ -740,8 +735,7 @@ msgstr ""
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
 msgid "If you do not contribute or develop in Odoo, skip this page."
-msgstr ""
-
+msgstr "If you do not contribute or develop in GStock, skip this page."
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.sfinished
 msgid "If you wish, you can"
@@ -1686,8 +1680,8 @@ msgstr ""
 #: model:survey.page,description:survey.feedback_2
 msgid "These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
 "what have been your difficulties."
-msgstr ""
-
+msgstr "These questions relate to the ergonomy and ease of use of GStock. Try to remind your firsts days on GStock and\n"
+"what have been your difficulties."
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_2
 msgid "They are clean and correct"
@@ -1701,8 +1695,7 @@ msgstr ""
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
 msgid "They help new users to understand Odoo"
-msgstr ""
-
+msgstr "They help new users to understand GStock"
 #. module: survey
 #: code:addons/survey/models/survey.py:544
 #: code:addons/survey/tests/test_survey.py:86
@@ -1936,8 +1929,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid "What do you think about the process views of Odoo, available in the web client ?"
-msgstr ""
-
+msgstr "What do you think about the process views of GStock, available in the web client ?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
 #: model:survey.question,question:survey.feedback_2_6
@@ -1973,8 +1965,7 @@ msgstr ""
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
 msgid "Yes, I use the online version of Odoo"
-msgstr ""
-
+msgstr "Yes, I use the online version of GStock"
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form
 msgid "You can create surveys for different purposes: customer opinion, services feedback, recruitment interviews, employee's periodical evaluations, marketing campaigns, etc."

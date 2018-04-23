@@ -40,7 +40,7 @@
 # fr trans <e2ffr05@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
@@ -1968,7 +1968,7 @@ msgid ""
 "Odoo uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
 msgstr ""
-"Odoo utilise ces nomenclatures pour proposer automatiquement\n"
+"GStock utilise ces nomenclatures pour proposer automatiquement\n"
 "des ordres de fabrication selon les besoins en approvisionnement."
 
 #. module: mrp

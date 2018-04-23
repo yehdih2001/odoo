@@ -1818,8 +1818,8 @@ msgstr ""
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "Odoo uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
-msgstr ""
-
+msgstr "GStock uses these BoMs to automatically propose manufacturing\n"
+"                orders according to procurement needs."
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter_oee
 msgid "Oee"

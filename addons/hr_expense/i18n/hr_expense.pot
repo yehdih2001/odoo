@@ -536,8 +536,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Enjoy your Odoo experience,"
-msgstr ""
-
+msgstr "Enjoy your GStock experience,"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_account_move_line_expense_id
@@ -800,8 +799,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr ""
-
+msgstr "For the GStock Team,<br/>\n"
+"                            Fabien Pinckaers, Founder"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_filter
@@ -854,8 +853,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr ""
-
+msgstr "Have a wonderful day,<br/>- The GStock Team"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
 msgid "Hide Payment Method"
@@ -1515,8 +1513,7 @@ msgstr ""
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid "This guide helps you start with Odoo Expenses."
-msgstr ""
-
+msgstr "This guide helps you start with GStock Expenses."
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "This installs the Sales Management app.                             Expenses can be invoiced to customers from sales orders."

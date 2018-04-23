@@ -293,8 +293,7 @@ msgstr ""
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Deliver generic Odoo functional training sessions"
-msgstr ""
-
+msgstr "Deliver generic GStock functional training sessions"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
 #: model:ir.model.fields,field_description:hr.field_hr_job_department_id
@@ -795,8 +794,9 @@ msgstr ""
 msgid "Odoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
-msgstr ""
-
+msgstr "GStock's department structure is used to manage all documents\n"
+"                related to employees by departments: expenses, timesheets,\n"
+"                leaves, recruitments, etc."
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer"
@@ -1187,8 +1187,9 @@ msgstr ""
 msgid "With just a quick glance on the Odoo employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
-msgstr ""
-
+msgstr "With just a quick glance on the GStock employee screen, you\n"
+"                can easily find all the information you need for each person;\n"
+"                contact data, job position, availability, etc."
 #. module: hr
 #: model:hr.job,website_description:hr.job_ceo
 #: model:hr.job,website_description:hr.job_consultant

@@ -355,8 +355,7 @@ msgstr ""
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_reply_to
 msgid "The email address put in the 'Reply-To' of all emails sent by Odoo about cases in this sales channel"
-msgstr ""
-
+msgstr "The email address put in the 'Reply-To' of all emails sent by GStock about cases in this sales channel"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_dashboard_graph_model
 msgid "The graph this channel will display in the Dashboard.\n"

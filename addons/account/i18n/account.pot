@@ -233,8 +233,71 @@ msgid "<div>\n"
 "</tbody>\n"
 "</table>\n"
 "</div>"
-msgstr ""
-
+msgstr "<div>\n"
+"% set record = ctx.get('record')\n"
+"% set company = record and record.company_id or user.company_id\n"
+"<table border=\"0\" width=\"100%\" cellpadding=\"0\" bgcolor=\"#ededed\" style=\"padding: 20px; background-color: #ededed; border-collapse:separate;\" summary=\"o_mail_notification\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"middle\">\n"
+"                        <span style=\"font-size:20px; color:white; font-weight: bold;\">\n"
+"                            Invoice ${object.record_name}\n"
+"                        </span>\n"
+"                    </td>\n"
+"                    <td valign=\"middle\" align=\"right\">\n"
+"                        <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${company.name}\"/>\n"
+"                    </td>\n"
+"                </tr>\n"
+"          </table>\n"
+"    </td>\n"
+"  </tr>\n"
+"  <!-- CONTENT -->\n"
+"  <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#ffffff\" style=\"min-width: 590px; background-color: rgb(255, 255, 255); padding: 20px; border-collapse:separate;\">\n"
+"                <tbody>\n"
+"                    <td valign=\"top\" style=\"font-family:Arial,Helvetica,sans-serif; color: #555; font-size: 14px;\">\n"
+"                        ${object.body | safe}\n"
+"                    </td>\n"
+"                </tbody>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- FOOTER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" bgcolor=\"#875A7B\" style=\"min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;\">\n"
+"                <tr>\n"
+"                    <td valign=\"middle\" align=\"left\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                        ${company.name}<br/>\n"
+"                        ${company.phone or ''}\n"
+"                    </td>\n"
+"                    <td valign=\"middle\" align=\"right\" style=\"color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;\">\n"
+"                        % if company.email:\n"
+"                        <a href=\"mailto:${company.email}\" style=\"text-decoration:none; color: white;\">${company.email}</a><br/>\n"
+"                        % endif\n"
+"                        % if company.website:\n"
+"                        <a href=\"${company.website}\" style=\"text-decoration:none; color: white;\">\n"
+"                        ${company.website}\n"
+"                        </a>\n"
+"                        % endif\n"
+"                    </td>\n"
+"                </tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <tr>\n"
+"        <td align=\"center\">\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.gstock.mr\">GStock</a>.\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</div>"
 #. module: account
 #: model:mail.template,body_html:account.email_template_edi_invoice
 msgid "<div>\n"
@@ -415,8 +478,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr ""
-
+msgstr "<span title=\"Balance in GStock\">Balance in GL</span>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Latest Statement\">Latest Statement</span>"
@@ -480,8 +542,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>-The Odoo Team</strong>"
-msgstr ""
-
+msgstr "<strong>-The GStock Team</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>1. Register Outstanding Invoices</strong>"
@@ -563,8 +624,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Create the bill in Odoo</strong><br/> with a proper due date, and create the vendor if it doesnt' exist yet."
-msgstr ""
-
+msgstr "<strong>Create the bill in GStock</strong><br/> with a proper due date, and create the vendor if it doesnt' exist yet."
 #. module: account
 #: model:ir.ui.view,arch_db:account.portal_invoice_report
 msgid "<strong>Customer Address</strong>"
@@ -737,8 +797,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Reconcile with existing transaction</strong><br/>\n"
 "                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
-msgstr ""
-
+msgstr "<strong>Reconcile with existing transaction</strong><br/>\n"
+"                                        In this case, GStock should automatically match the bank statement with the previously recorded check transaction."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Reconcile your Bank Statements</strong>"
@@ -822,13 +882,11 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>Test the following three scenarios in order to assist you in familiarizing yourself with Odoo:</strong>"
-msgstr ""
-
+msgstr "<strong>Test the following three scenarios in order to assist you in familiarizing yourself with GStock:</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>There are three different levels of access rights in Odoo:</strong>"
-msgstr ""
-
+msgstr "<strong>There are three different levels of access rights in GStock:</strong>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
 msgid "<strong>There is nothing due with this customer.</strong>"
@@ -933,8 +991,9 @@ msgstr ""
 msgid "A product in Odoo is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
-msgstr ""
-
+msgstr "A product in GStock is something you sell or buy \n"
+"                        whether or not it is goods, consumables, or services.\n"
+"                        Choose how you want to create your products:"
 #. module: account
 #: code:addons/account/models/account_move.py:881
 #, python-format
@@ -1518,8 +1577,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid "Aged Partner Balance is a more detailed report of your receivables by intervals. Odoo calculates a table of credit balance by start Date. So if you request an interval of 30 days Odoo generates an analysis of creditors for the past month, past two months, and so on."
-msgstr ""
-
+msgstr "Aged Partner Balance is a more detailed report of your receivables by intervals. GStock calculates a table of credit balance by start Date. So if you request an interval of 30 days GStock generates an analysis of creditors for the past month, past two months, and so on."
 #. module: account
 #: selection:account.balance.report,display_account:0
 #: selection:account.common.account.report,display_account:0
@@ -3614,8 +3672,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_opening_date
 msgid "Date from which the accounting is managed in Odoo. It is the date of the opening entry."
-msgstr ""
-
+msgstr "Date from which the accounting is managed in GStock. It is the date of the opening entry."
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_payment.xml:56
@@ -4174,8 +4231,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Enjoy your Odoo experience,"
-msgstr ""
-
+msgstr "Enjoy your GStock experience,"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
 msgid "Entries"
@@ -4495,8 +4551,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr ""
-
+msgstr "For the GStock Team,<br/>\n"
+"                            Fabien Pinckaers, Founder"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_currency_id
 msgid "Forces all moves for this account to have this account currency."
@@ -4905,16 +4961,17 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "If you want to be able to send customer statements from Odoo, you must:"
-msgstr ""
-
+msgstr "If you want to be able to send customer statements from GStock, you must:"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "If you want to be able to send your customers their statements \n"
 "                        from Odoo, you first need to record all outstanding transactions \n"
 "                        in the payable and receivable accounts. These would be invoices \n"
 "                        that have not been paid or payments that have not been reconciled."
-msgstr ""
-
+msgstr "If you want to be able to send your customers their statements \n"
+"                        from GStock, you first need to record all outstanding transactions \n"
+"                        in the payable and receivable accounts. These would be invoices \n"
+"                        that have not been paid or payments that have not been reconciled."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "If you want to do it yourself:"
@@ -4993,8 +5050,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "In Odoo,"
-msgstr ""
-
+msgstr "In GStock,"
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
 #, python-format
@@ -5423,8 +5479,11 @@ msgid "It's common practice to change your accounting software \n"
 "                            data to import and balances to set. If you plan to do so, \n"
 "                            we recommend you start using Odoo for invoicing and payments \n"
 "                            now, and then move all other accounting transactions at a later time."
-msgstr ""
-
+msgstr "It's common practice to change your accounting software \n"
+"                            at the end of a fiscal year. This allows you to have less \n"
+"                            data to import and balances to set. If you plan to do so, \n"
+"                            we recommend you start using GStock for invoicing and payments \n"
+"                            now, and then move all other accounting transactions at a later time."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "It's recommended that you do not delete any accounts, even if they are not relevant. Simply make them inactive."
@@ -6134,8 +6193,9 @@ msgstr ""
 msgid "Manual: Get paid by cash, check or any other method outside of Odoo.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
-msgstr ""
-
+msgstr "Manual: Get paid by cash, check or any other method outside of GStock.\n"
+"Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in GStock,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 #. module: account
 #: model:ir.model.fields,help:account.field_account_abstract_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_payment_method_id
@@ -6145,15 +6205,19 @@ msgid "Manual: Get paid by cash, check or any other method outside of Odoo.\n"
 "Check: Pay bill by check and print it from Odoo.\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
-msgstr ""
-
+msgstr "Manual: Get paid by cash, check or any other method outside of GStock.\n"
+"Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
+"Check: Pay bill by check and print it from GStock.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in GStock, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
+"SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid "Manual:Pay bill by cash or any other method outside of Odoo.\n"
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
-msgstr ""
-
+msgstr "Manual:Pay bill by cash or any other method outside of GStock.\n"
+"Check:Pay bill by check and print it from GStock.\n"
+"SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Manually enter your transactions using our"
@@ -6629,51 +6693,51 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Odoo Accounting has many free extra-features:"
-msgstr ""
-
+msgstr "GStock Accounting has many free extra-features:"
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid "Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
-msgstr ""
-
+msgstr "GStock allows you to reconcile a statement line directly with\n"
+"                the related sale or puchase invoice(s)."
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid "Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
-msgstr ""
-
+msgstr "GStock allows you to reconcile a statement line directly with\n"
+"                the related sale or puchase invoices."
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid "Odoo automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
-msgstr ""
-
+msgstr "GStock automatically creates one journal entry per accounting\n"
+"                document: invoice, refund, vendor payment, bank statements,\n"
+"                etc. So, you should record journal entries manually only/mainly\n"
+"                for miscellaneous operations."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Odoo can manage multiple companies, but we suggest to setup everything for your first company before configuring the other ones."
-msgstr ""
-
+msgstr "GStock can manage multiple companies, but we suggest to setup everything for your first company before configuring the other ones."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Odoo has already preconfigured a few taxes according to your country.<br/>Simply review them and check if you need more."
-msgstr ""
-
+msgstr "GStock has already preconfigured a few taxes according to your country.<br/>Simply review them and check if you need more."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Odoo should do most of the reconciliation work automatically, so you'll only need to review a few of them when a <strong>'Reconcile Items'</strong> button appears on your Vendor Bills dash."
-msgstr ""
-
+msgstr "GStock should do most of the reconciliation work automatically, so you'll only need to review a few of them when a <strong>'Reconcile Items'</strong> button appears on your Vendor Bills dash."
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid "Odoo's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
-msgstr ""
-
+msgstr "GStock's electronic invoicing allows to ease and fasten the\n"
+"                collection of customer payments. Your customer receives the\n"
+"                invoice by email and he can pay online and/or import it\n"
+"                in his own system."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_invoice_confirm_view
 msgid "Once draft invoices are confirmed, you will not be able\n"
@@ -7888,8 +7952,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Registering outstanding invoices and payments can be a huge undertaking, \n"
 "                        but you can start using Odoo without it by:"
-msgstr ""
-
+msgstr "Registering outstanding invoices and payments can be a huge undertaking, \n"
+"                        but you can start using GStock without it by:"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Registering payments related to outstanding invoices separately in a different account (e.g. Account Receivables 2014)"
@@ -9504,8 +9568,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "This guide will help you get started with Odoo Accounting.\n"
 "                        Once you're done, you'll benefit from:"
-msgstr ""
-
+msgstr "This guide will help you get started with GStock Accounting.\n"
+"                        Once you're done, you'll benefit from:"
 #. module: account
 #: model:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid "This is the accounting dashboard. If you have not yet\n"
@@ -9634,8 +9698,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "To manage the tax applied when invoicing a Company, Odoo uses the concept of Fiscal Position: they serve to automatically set the right tax and/or account according to the customer country and state."
-msgstr ""
-
+msgstr "To manage the tax applied when invoicing a Company, GStock uses the concept of Fiscal Position: they serve to automatically set the right tax and/or account according to the customer country and state."
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_tree
 msgid "To pay"
@@ -10259,16 +10322,20 @@ msgid "We can handle the whole import process\n"
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
-msgstr ""
-
+msgstr "We can handle the whole import process\n"
+"                                        for you: simply send your GStock project\n"
+"                                        manager a CSV file containing all your\n"
+"                                        data."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "We can handle the whole import process\n"
 "                                        for you: simply send your Odoo project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
-msgstr ""
-
+msgstr "We can handle the whole import process\n"
+"                                        for you: simply send your GStock project\n"
+"                                        manager a CSV file containing all your\n"
+"                                        products."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "We hope this tool helped you implement our accounting application."

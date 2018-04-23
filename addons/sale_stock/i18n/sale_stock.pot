@@ -46,8 +46,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_sale
 msgid "By default Odoo computes the expected delivery date this way: order date + highest customer lead time of products. With this option, you can set a specific delivery date on orders rather than setting lead times on products."
-msgstr ""
-
+msgstr "By default GStock computes the expected delivery date this way: order date + highest customer lead time of products. With this option, you can set a specific delivery date on orders rather than setting lead times on products."
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_res_company
 msgid "Companies"

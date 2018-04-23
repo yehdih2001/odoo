@@ -52,7 +52,7 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
@@ -292,7 +292,7 @@ msgid ""
 "                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Tout peut être modifié sur votre site Odoo. Éditez n'importe quel titre, intitulé de bouton ou de champ. Appuyez simplement sur *Éditer* en haut à droit pour commencer la modification de la page."
+"                                Tout peut être modifié sur votre site GStock. Éditez n'importe quel titre, intitulé de bouton ou de champ. Appuyez simplement sur *Éditer* en haut à droit pour commencer la modification de la page."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -738,7 +738,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Le voir en action sur Odoo</strong><br/>"
+msgstr "<strong>Le voir en action sur GStock</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1939,7 +1939,7 @@ msgid ""
 "related connector in Odoo to compute accurate costs and print labels."
 msgstr ""
 "Si vous faites appel à un transporteur majeur (UPS, FedEx, DHL, etc.) "
-"activez le connecteur approprié dans Odoo pour obtenir un calcul des coûts "
+"activez le connecteur approprié dans GStock pour obtenir un calcul des coûts "
 "précis et imprimer des étiquettes de transport."
 
 #. module: website_sale
@@ -3572,7 +3572,7 @@ msgid ""
 "To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
 msgstr ""
 "Pour ce faire, profitez de toutes les <strong>options de "
-"tarification</strong> d'Odoo :<br/>"
+"tarification</strong> dans GStock :<br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -3782,7 +3782,7 @@ msgstr ""
 msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
 msgstr ""
 "Vous pouvez configurer trois types d'<strong>acquéreurs de paiement dans "
-"Odoo :</strong>"
+"GStock :</strong>"
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
@@ -3981,7 +3981,7 @@ msgstr "termes &amp; conditions"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "use Odoo API to import through scripts"
-msgstr "utiliser l'API Odoo pour importer au travers de scripts"
+msgstr "utiliser l'API GStock pour importer au travers de scripts"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

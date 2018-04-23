@@ -21,7 +21,7 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: GStock Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
@@ -198,11 +198,11 @@ msgid ""
 "them, link them to Odoo and use them to collaborate with your employees."
 msgstr ""
 "Liez vos propres modèles Google Drive à n'importe quel enregistrement "
-"d'Odoo. Si vous avez des documents spécifiques que vous souhaitez que votre "
+"dans GStock. Si vous avez des documents spécifiques que vous souhaitez que votre "
 "collaborateur remplisse, par exemple l'utilisation d'une feuille de calcul "
 "pour contrôler la qualité de votre produit ou pour revoir la liste des "
 "choses à faire lors d'une livraison pour chaque commande dans un pays "
-"étranger, ... C'est vraiment facile de gérer cela, liez-les à Odoo et "
+"étranger, ... C'est vraiment facile de gérer cela, liez-les à GStock et "
 "utilisez-les pour collaborer avec vos employés."
 
 #. module: google_drive
@@ -271,7 +271,7 @@ msgid ""
 "                                'Agrolait_SO0001_Sales'."
 msgstr ""
 "Le nom du document attaché peut utiliser une donnée variable ou fixe. Pour distinguer les documents dans Google Drive, utilisez des mots et des champs fixes. Pour le moment, dans l'exemple ci-dessous, si vous écrivez Agrolait_Vente_%(name)s\n"
-"dans le champ nom de Google Drive, le document dans votre Google Drive et dans le fichier attaché dans Odoo sera nommé \"Agrolait_Vente_SO0001\"."
+"dans le champ nom de Google Drive, le document dans votre Google Drive et dans le fichier attaché dans GStock sera nommé \"Agrolait_Vente_SO0001\"."
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:134

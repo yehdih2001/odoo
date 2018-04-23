@@ -29,7 +29,7 @@
 # Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
@@ -1044,7 +1044,7 @@ msgid ""
 "Once a leave is validated, Odoo will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Une fois la demande validée, Odoo créera un rendez-vous de ce type dans le "
+"Une fois la demande validée, GStock créera un rendez-vous de ce type dans le "
 "calendrier."
 
 #. module: hr_holidays
@@ -1481,7 +1481,7 @@ msgid ""
 "You can assign remaining Legal Leaves for each employee, Odoo\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Vous pouvez attribuer les congés légaux restants pour chaque employé, Odoo\n"
+"Vous pouvez attribuer les congés légaux restants pour chaque employé, GStock\n"
 " créera et validera automatiquement les demandes d'allocation."
 
 #. module: hr_holidays

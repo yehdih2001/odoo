@@ -526,8 +526,8 @@ msgstr ""
 #: model:ir.actions.act_window,help:membership.action_membership_members
 msgid "Odoo helps you easily track all activities related to a member: \n"
 "                 Current Membership Status, Discussions and History of Membership, etc."
-msgstr ""
-
+msgstr "GStock helps you easily track all activities related to a member: \n"
+"                 Current Membership Status, Discussions and History of Membership, etc."
 #. module: membership
 #: selection:membership.membership_line,state:0
 #: selection:report.membership,membership_state:0

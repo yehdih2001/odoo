@@ -298,8 +298,7 @@ msgstr ""
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
 msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr ""
-
+msgstr "Capture the amount from GStock, when the delivery is completed."
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
 #: model:ir.ui.view,arch_db:payment.transaction_form
@@ -871,8 +870,7 @@ msgstr ""
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
 msgid "Payment from Odoo"
-msgstr ""
-
+msgstr "Payment from GStock"
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59
 #, python-format

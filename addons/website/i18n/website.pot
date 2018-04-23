@@ -109,8 +109,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "- The Odoo Team"
-msgstr ""
-
+msgstr "- The GStock Team"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.pageProperties.xml:23
@@ -523,8 +522,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
 msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
-msgstr ""
-
+msgstr "<strong>50,000+ companies run GStock to grow their businesses.</strong>"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Add features and content</strong><br/>\n"
@@ -544,8 +542,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
 "                                We like to hear from people using Odoo to build their website. Tweet us"
-msgstr ""
-
+msgstr "<strong>Be announced on the GStock Twitter account</strong><br/>\n"
+"                                We like to hear from people using GStock to build their website. Tweet us"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "<strong>Be linked by trusted websites</strong><br/>\n"
@@ -1690,8 +1688,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr ""
-
+msgstr "For the GStock Team,<br/>\n"
+"                            Fabien Pinckaers, Founder"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_company_team
 msgid "Founder and chief visionary, Tony is the driving force behind Company. He loves\n"
@@ -2111,8 +2109,7 @@ msgstr ""
 #: code:addons/website/static/src/js/content/website_root.js:212
 #, python-format
 msgid "It might be possible to edit the relevant items or fix the issue in <a href=\"%s\">the classic Odoo interface</a>"
-msgstr ""
-
+msgstr "It might be possible to edit the relevant items or fix the issue in <a href=\"%s\">the classic GStock interface</a>"
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid "It's often much easier not to start with a blank page. Take a look at your competitors\n"
@@ -2533,54 +2530,45 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
 msgid "Odoo"
-msgstr ""
-
+msgstr "GStock"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 1 for three columns"
-msgstr ""
-
+msgstr "GStock - Sample 1 for three columns"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 2 for three columns"
-msgstr ""
-
+msgstr "GStock - Sample 2 for three columns"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
 msgid "Odoo - Sample 3 for three columns"
-msgstr ""
-
+msgstr "GStock - Sample 3 for three columns"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
 msgid "Odoo CMS - a big picture"
-msgstr ""
-
+msgstr "GStock CMS - a big picture"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
 msgid "Odoo CMS- Sample image floating"
-msgstr ""
-
+msgstr "GStock CMS- Sample image floating"
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid "Odoo Version"
-msgstr ""
-
+msgstr "GStock Version"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
 msgid "Odoo image and text block"
-msgstr ""
-
+msgstr "GStock image and text block"
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid "Odoo provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
-msgstr ""
-
+msgstr "GStock provides essential platform for our project management.\n"
+"                                                Things are better organized and more visible with it."
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
 msgid "Odoo text and image block"
-msgstr ""
-
+msgstr "GStock text and image block"
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:5
@@ -3209,8 +3197,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
 msgid "Slider Odoo Image"
-msgstr ""
-
+msgstr "Slider GStock Image"
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
 msgid "Slideshow"
@@ -4237,13 +4224,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://plus.google.com/+Odooapps"
-msgstr ""
-
+msgstr "https://plus.google.com/+GStockapps"
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://twitter.com/Odoo"
-msgstr ""
-
+msgstr "https://twitter.com/GStock"
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
 msgid "https://www.facebook.com/odoo"
@@ -4272,8 +4257,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
 msgid "instance of Odoo, the"
-msgstr ""
-
+msgstr "instance of GStock, the"
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server
 msgid "ir.actions.server"

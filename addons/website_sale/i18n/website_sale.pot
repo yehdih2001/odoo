@@ -174,8 +174,8 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
 "                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
-msgstr ""
-
+msgstr "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
+"                                Everything is editable in your GStock website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
@@ -496,8 +496,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr ""
-
+msgstr "<strong>See it in action in GStock</strong><br/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "<strong>Short description</strong>"
@@ -1523,8 +1522,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the related connector in Odoo to compute accurate costs and print labels."
-msgstr ""
-
+msgstr "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the related connector in GStock to compute accurate costs and print labels."
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "If you're selling digital goods to customers in the EU, you must charge VAT based on your customers' locations. This rule applies regardless of you are located. Digital goods are defined in the legislation as broadcasting, telecommunications, and services that are electronically supplied instead of shipped. Gift cards sent online are not included in the definition."
@@ -2953,8 +2951,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
-msgstr ""
-
+msgstr "To do so, take the most out of GStock's <strong>pricing options</strong>:<br/>"
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
 msgid "Total"
@@ -3149,8 +3146,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
-msgstr ""
-
+msgstr "You can setup 3 types of <strong>payment acquirers in GStock:</strong>"
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
 msgid "You don't have any confirmed order from the website."
@@ -3331,8 +3327,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid "use Odoo API to import through scripts"
-msgstr ""
-
+msgstr "use GStock API to import through scripts"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id
 msgid "website"

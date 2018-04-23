@@ -285,8 +285,7 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:567
 #, python-format
 msgid "Odoo error while processing transaction."
-msgstr ""
-
+msgstr "GStock error while processing transaction."
 #. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:642

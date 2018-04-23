@@ -220,8 +220,7 @@ msgstr ""
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
 msgid "<span>Odoo</span>"
-msgstr ""
-
+msgstr "<span>GStock</span>"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/report/qwebactionmanager.js:112
@@ -1280,8 +1279,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
 msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr ""
-
+msgstr "Get this feature and much more with GStock Enterprise!"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:18
@@ -1634,8 +1632,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
 msgid "My Odoo.com account"
-msgstr ""
-
+msgstr "My GStock.com account"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:629
@@ -1762,15 +1759,13 @@ msgstr ""
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
 msgid "Odoo"
-msgstr ""
-
+msgstr "GStock"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
 msgid "Odoo Apps will be available soon"
-msgstr ""
-
+msgstr "GStock Apps will be available soon"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:186
@@ -1778,37 +1773,32 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
 msgid "Odoo Client Error"
-msgstr ""
-
+msgstr "GStock Client Error"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
 msgid "Odoo Enterprise"
-msgstr ""
-
+msgstr "GStock Enterprise"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
 msgid "Odoo Error"
-msgstr ""
-
+msgstr "GStock Error"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
 msgid "Odoo Session Expired"
-msgstr ""
-
+msgstr "GStock Session Expired"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
 msgid "Odoo Warning"
-msgstr ""
-
+msgstr "GStock Warning"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1644
@@ -2009,8 +1999,7 @@ msgstr ""
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
 msgid "Powered by <span>Odoo</span>"
-msgstr ""
-
+msgstr "Powered by <span>GStock</span>"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1323
@@ -2503,8 +2492,7 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/special_fields.js:93
 #, python-format
 msgid "Timezone Mismatch : The timezone of your browser doesn't match the selected one. The time in Odoo is displayed according to your field timezone."
-msgstr ""
-
+msgstr "Timezone Mismatch : The timezone of your browser doesn't match the selected one. The time in GStock is displayed according to your field timezone."
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/kanban.xml:63
@@ -2858,8 +2846,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr ""
-
+msgstr "Your GStock session expired. Please refresh the current web page."
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/report/qwebactionmanager.js:20

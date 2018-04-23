@@ -286,8 +286,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
 msgid "Awesome Timesheet by Odoo"
-msgstr ""
-
+msgstr "Awesome Timesheet by GStock"
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
 msgid "CMS"
@@ -454,8 +453,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 msgid "Discover how easy marketing your business can be with Odoo"
-msgstr ""
-
+msgstr "Discover how easy marketing your business can be with GStock"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
 msgid "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
@@ -463,8 +461,11 @@ msgid "Discover how you can integrate MRP, PLM, Quality and Maintenance in a sin
 "Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
 "\n"
 "Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
-msgstr ""
-
+msgstr "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
+"\n"
+"Read more about the features at: https://www.gstock.mr/page/manufacturing-features\n"
+"\n"
+"Discover GStock MRP: https://www.gstock.mr/page/manufacturing"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
 msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
@@ -529,8 +530,10 @@ msgid "Download Awesome Timesheet by Odoo and discover how easy time tracking an
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
-msgstr ""
-
+msgstr "Download Awesome Timesheet by GStock and discover how easy time tracking and employee management can be!\n"
+"\n"
+"Chrome: http://bit.ly/2613LcY\n"
+"iOS: http://bit.ly/1ZUZsZD"
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_download_security
 msgid "Download Security"
@@ -840,44 +843,36 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
 msgid "Odoo All-in-One Software Demonstration"
-msgstr ""
-
+msgstr "GStock All-in-One Software Demonstration"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
 msgid "Odoo CRM"
-msgstr ""
-
+msgstr "GStock CRM"
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
 msgid "Odoo Days"
-msgstr ""
-
+msgstr "GStock Days"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
 msgid "Odoo Inventory"
-msgstr ""
-
+msgstr "GStock Inventory"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
 msgid "Odoo MRP"
-msgstr ""
-
+msgstr "GStock MRP"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
 msgid "Odoo Marketing"
-msgstr ""
-
+msgstr "GStock Marketing"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
 msgid "Odoo Sales"
-msgstr ""
-
+msgstr "GStock Sales"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
 msgid "Odoo Sign Demonstration"
-msgstr ""
-
+msgstr "GStock Sign Demonstration"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
 msgid "Open Days 2014 Infographic"
@@ -1106,8 +1101,9 @@ msgstr ""
 msgid "Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
 "\n"
 "Discover more at https://www.odoo.com/page/sign"
-msgstr ""
-
+msgstr "Stop doing manual printing and scanning. Move to electronic signature with GStock Sign!\n"
+"\n"
+"Discover more at https://www.gstock.mr/page/sign"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
 msgid "Tag"
@@ -1292,8 +1288,9 @@ msgstr ""
 msgid "Warehouse management software for the 21st century.\n"
 "\n"
 "Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
-msgstr ""
-
+msgstr "Warehouse management software for the 21st century.\n"
+"\n"
+"Discover GStock Inventory: https://www.gstock.mr/page/warehouse"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Website"

@@ -26,7 +26,7 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: GStock Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
@@ -374,7 +374,7 @@ msgstr "Utilisateurs authentifiés uniquement"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
 msgid "Awesome Timesheet by Odoo"
-msgstr "Awesome Timesheet par Odoo"
+msgstr "Awesome Timesheet par GStock"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -554,7 +554,7 @@ msgstr "Annuler"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 msgid "Discover how easy marketing your business can be with Odoo"
-msgstr "Découvrez comment faire connaître facilement votre activité avec Odoo"
+msgstr "Découvrez comment faire connaître facilement votre activité avec GStock"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
@@ -569,7 +569,7 @@ msgstr ""
 "\n"
 "Pour en savoir plus sur les fonctionnalités, consultez https://www.odoo.com/page/manufacturing-features\n"
 "\n"
-"Découvrez Odoo MRP : https://www.odoo.com/page/manufacturing"
+"Découvrez GStock MRP : https://www.gstock.mr/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
@@ -642,7 +642,7 @@ msgid ""
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"Téléchargez Awesome Timesheet par Odoo et découvrez comme il peut être simple d'effectuer un suivi temporel et de gérer les employés ! \n"
+"Téléchargez Awesome Timesheet par GStock et découvrez comme il peut être simple d'effectuer un suivi temporel et de gérer les employés ! \n"
 "\n"
 "Chrome : http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -966,43 +966,43 @@ msgstr "Nombre de vidéos"
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
 msgid "Odoo All-in-One Software Demonstration"
-msgstr "Démonstration du logiciel tout-en-un Odoo"
+msgstr "Démonstration du logiciel tout-en-un GStock"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
 msgid "Odoo CRM"
-msgstr "Odoo CRM"
+msgstr "GStock CRM"
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
 msgid "Odoo Days"
-msgstr "Journées Odoo"
+msgstr "Journées GStock"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
 msgid "Odoo Inventory"
-msgstr "Odoo Inventaire"
+msgstr "GStock Inventaire"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
 msgid "Odoo MRP"
-msgstr "Odoo MRP"
+msgstr "GStock MRP"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
 msgid "Odoo Marketing"
-msgstr "Odoo Marketing"
+msgstr "GStock Marketing"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
 msgid "Odoo Sales"
-msgstr "Odoo Ventes"
+msgstr "GStock Ventes"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
 msgid "Odoo Sign Demonstration"
-msgstr "Démonstration d'Odoo Signature"
+msgstr "Démonstration dans GStock Signature"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1240,7 +1240,7 @@ msgid ""
 "\n"
 "Discover more at https://www.odoo.com/page/sign"
 msgstr ""
-"Plus besoin d'imprimer les documents, les signer puis les numériser. Passez à la signature électronique avec Odoo Signature ! \n"
+"Plus besoin d'imprimer les documents, les signer puis les numériser. Passez à la signature électronique avec GStock Signature ! \n"
 "\n"
 "En savoir plus sur https://www.odoo.com/page/sign"
 
@@ -1447,7 +1447,7 @@ msgid ""
 msgstr ""
 "Logiciel de gestion d'entrepôt pour le XXIe siècle.\n"
 "\n"
-"Découvrez Odoo Inventaire : https://www.odoo.com/page/warehouse"
+"Découvrez GStock Inventaire : https://www.gstock.mr/page/warehouse"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form

@@ -1564,8 +1564,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
 msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr ""
-
+msgstr "IMPORTANT: Bug Report From GStock Point Of Sale"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
 #: model:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -2029,8 +2028,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
 msgid "Odoo Logo"
-msgstr ""
-
+msgstr "GStock Logo"
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/chrome.js:401
@@ -3720,13 +3718,11 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid "This sequence is automatically created by Odoo but you can change it to customize the reference numbers of your orders lines."
-msgstr ""
-
+msgstr "This sequence is automatically created by GStock but you can change it to customize the reference numbers of your orders lines."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid "This sequence is automatically created by Odoo but you can change it to customize the reference numbers of your orders."
-msgstr ""
-
+msgstr "This sequence is automatically created by GStock but you can change it to customize the reference numbers of your orders."
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:626
 #, python-format

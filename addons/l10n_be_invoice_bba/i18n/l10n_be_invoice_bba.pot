@@ -102,5 +102,5 @@ msgstr ""
 #, python-format
 msgid "Unsupported Structured Communication Type Algorithm '%s' !\n"
 "Please contact your Odoo support channel."
-msgstr ""
-
+msgstr "Unsupported Structured Communication Type Algorithm '%s' !\n"
+"Please contact your GStock support channel."

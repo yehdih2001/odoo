@@ -29,7 +29,7 @@
 # Frédéric LIETART <stuff@tifred.fr>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
@@ -353,7 +353,7 @@ msgstr "Définir une stratégie de communication claire"
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
 msgid "Deliver generic Odoo functional training sessions"
-msgstr "Donner des formations génériques et fonctionnelles sur Odoo"
+msgstr "Donner des formations génériques et fonctionnelles sur GStock"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -878,7 +878,7 @@ msgid ""
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"La structure du service d'Odoo est utilisée pour gérer tous les documents\n"
+"La structure du service dans GStock est utilisée pour gérer tous les documents\n"
 " associés aux employés par service : dépenses, feuilles de temps,\n"
 " congés, recrutements, etc."
 
@@ -1331,7 +1331,7 @@ msgid ""
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Avec un coup d’œil rapide sur l'écran Odoo des employés, vous pouvez "
+"Avec un coup d’œil rapide sur l'écran GStock des employés, vous pouvez "
 "aisément trouver toute l'information dont vous avez besoin sur chaque "
 "personne; informations de contact, position de travail, disponibilité, etc."
 

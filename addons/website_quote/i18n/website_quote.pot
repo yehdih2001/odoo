@@ -65,8 +65,54 @@ msgid "\n"
 "        </tr></tbody>\n"
 "    </table>\n"
 "</div>"
-msgstr ""
-
+msgstr "\n"
+"<div summary=\"o_mail_template\" style=\"padding:0px; width:600px; margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td valign=\"center\" width=\"200\" style=\"padding:0px 10px 5px 5px;font-size: 12px\">\n"
+"                <img src=\"/logo.png\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${user.company_id.name}\">\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td valign=\"top\" style=\"width:600px; padding:0px 10px 5px 5px;\">\n"
+"                <div>\n"
+"                    <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0;margin:15px auto;padding:0\">\n"
+"                </div>\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"</div>\n"
+"<div style=\"padding:0px; width:600px; max-width:600px; margin:0 auto; background: #FFFFFF repeat top /100%;color:#777777\">\n"
+"    <table cellspacing=\"0\" cellpadding=\"0\" style=\"width:600px ;text-align:justify; margin:0 auto; border-collapse:collapse; background:inherit; color:inherit\">\n"
+"        <tbody><tr>\n"
+"            <td style=\"padding:0px 10px 5px 5px;font-size: 14px;\">\n"
+"                <p>Dear ${object.partner_id.name},</p><br/>\n"
+"                <p>Your order <a href=\"/quote/${object.id}/${object.access_token}\">${object.name}</a> has been validated!</p><br/>\n"
+"                \n"
+"                % if object.partner_id.user_ids\n"
+"                <p>You can view your quotes, sales orders and invoices online by going to our <a style=\"text-decoration:none; color: #875A7B;\" href=\"/my/home\">Online Portal</a>.</p><br/>\n"
+"                % endif\n"
+"\n"
+"                <p>If you have any question, do not hesitate to contact us.</p><br/>\n"
+"                <p>Thank you for choosing ${object.company_id.name or \"us\"}!</p>\n"
+"            </td>\n"
+"        </tr><tr>\n"
+"            <td style=\"padding:0px 10px 5px 5px;font-size: 14px;\">\n"
+"                % if user.signature\n"
+"                <p style=\"font-size: 14px;\">${user.signature | safe}\n"
+"                </p>\n"
+"                % endif\n"
+"                <p style=\"font-size: 11px;\"><strong>Sent by\n"
+"                <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: #875A7B;\">\n"
+"                    <strong>${user.company_id.name}</strong>\n"
+"                </a> using <a href=\"www.gstock.mr\" style=\"text-decoration:none; color: #875A7B;\"><strong>GStock</strong></a>\n"
+"                </strong></p>\n"
+"            </td>\n"
+"        </tr></tbody>\n"
+"    </table>\n"
+"</div>"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.optional_products
 #: model:ir.ui.view,arch_db:website_quote.pricing
@@ -283,8 +329,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Access to an Account Manager at Odoo SA to discuss strategic, sales and service issues"
-msgstr ""
-
+msgstr "Access to an Account Manager at GStock SA to discuss strategic, sales and service issues"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Access to the Partners Portal"
@@ -329,8 +374,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "An Odoo official partner commits to:"
-msgstr ""
-
+msgstr "An GStock official partner commits to:"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_search
 msgid "Archived"
@@ -369,18 +413,15 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Be available for periodic review meeting with Odoo SA account managers"
-msgstr ""
-
+msgstr "Be available for periodic review meeting with GStock SA account managers"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Be the first level of support for his Odoo customers and use Odoo SA for the second level of support (mostly for bug fixes)"
-msgstr ""
-
+msgstr "Be the first level of support for his GStock customers and use GStock SA for the second level of support (mostly for bug fixes)"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Become a Certified Odoo Partner"
-msgstr ""
-
+msgstr "Become a Certified GStock Partner"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Benefits for a partner"
@@ -669,18 +710,15 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Has a direct relationship with Odoo SA to escalate issues"
-msgstr ""
-
+msgstr "Has a direct relationship with GStock SA to escalate issues"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Has access to Odoo Enterprise source code on Github and latest bug fixes"
-msgstr ""
-
+msgstr "Has access to GStock Enterprise source code on Github and latest bug fixes"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Have dedicated resources assigned to Odoo projects"
-msgstr ""
-
+msgstr "Have dedicated resources assigned to GStock projects"
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
@@ -783,8 +821,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Is fully trained on Odoo"
-msgstr ""
-
+msgstr "Is fully trained on GStock"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option___last_update
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_line___last_update
@@ -817,15 +854,13 @@ msgstr ""
 #: model:product.template,description_sale:website_quote.product_template_quote_1
 #: model:product.template,description_sale:website_quote.product_template_quote_3
 msgid "Learn directly from our team and network of Odoo experts. Choose from the available training sessions for a better functional understanding of Odoo"
-msgstr ""
-
+msgstr "Learn directly from our team and network of GStock experts. Choose from the available training sessions for a better functional understanding of GStock"
 #. module: website_quote
 #: model:product.product,description_sale:website_quote.product_product_quote_2
 #: model:product.template,description_sale:website_quote.product_product_quote_2_product_template
 #: model:product.template,description_sale:website_quote.product_template_quote_2
 msgid "Learn directly from our team and network of Odoo experts. Choose from the available training sessions for a better technical understanding of Odoo"
-msgstr ""
-
+msgstr "Learn directly from our team and network of GStock experts. Choose from the available training sessions for a better technical understanding of GStock"
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_line_id
 msgid "Line"
@@ -902,26 +937,22 @@ msgstr ""
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Odoo Official Website"
-msgstr ""
-
+msgstr "GStock Official Website"
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
 msgid "Odoo Web Client"
-msgstr ""
-
+msgstr "GStock Web Client"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Odoo official partners will benefit from:"
-msgstr ""
-
+msgstr "GStock official partners will benefit from:"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Odoo sales training session"
-msgstr ""
-
+msgstr "GStock sales training session"
 #. module: website_quote
 #: selection:sale.order,require_payment:0
 #: selection:sale.quote.template,require_payment:0
@@ -1076,13 +1107,11 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Promote Odoo Enterprise to its customers"
-msgstr ""
-
+msgstr "Promote GStock Enterprise to its customers"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Publishes references directly on Odoo.com"
-msgstr ""
-
+msgstr "Publishes references directly on GStock.com"
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
@@ -1299,18 +1328,15 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "The Odoo Enterprise GitHub repositories for all his developers"
-msgstr ""
-
+msgstr "The GStock Enterprise GitHub repositories for all his developers"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "The Odoo eco system is designed to offer the best customer experience to Odoo users, from the product to implementation services. In order to guarantee that, the Odoo Partner Program ensures that official partners have the resources and knowledge required to offer Odoo implementation services."
-msgstr ""
-
+msgstr "The GStock eco system is designed to offer the best customer experience to GStock users, from the product to implementation services. In order to guarantee that, the GStock Partner Program ensures that official partners have the resources and knowledge required to offer GStock implementation services."
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "The ability to report bugs to be fixed by Odoo on behalf of his customer (Enterprise contracts only)"
-msgstr ""
-
+msgstr "The ability to report bugs to be fixed by GStock on behalf of his customer (Enterprise contracts only)"
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
 #: model:product.template,quote_description:website_quote.product_product_quote_1_product_template
@@ -1371,8 +1397,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Train their staff by following Odoo training sessions"
-msgstr ""
-
+msgstr "Train their staff by following GStock training sessions"
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
@@ -1416,8 +1441,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Up to 20% commission on Odoo Enterprise sales, depending on the partnership level"
-msgstr ""
-
+msgstr "Up to 20% commission on GStock Enterprise sales, depending on the partnership level"
 #. module: website_quote
 #: model:ir.actions.act_window,help:website_quote.action_sale_quotation_template
 msgid "Use templates to create polished, professional quotes in minutes.\n"
@@ -1449,8 +1473,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid "Visibility and recognition, by being listed as an official partner on Odoo.com Partners page"
-msgstr ""
-
+msgstr "Visibility and recognition, by being listed as an official partner on GStock.com Partners page"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid "We always ensure that our products are\n"
@@ -1501,8 +1524,11 @@ msgid "You can <strong>set a description per product</strong>. Odoo will\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
-msgstr ""
-
+msgstr "You can <strong>set a description per product</strong>. GStock will\n"
+"                        automatically create a quotation using the descriptions\n"
+"                        of all products in the proposal. The table of content\n"
+"                        on the left is generated automatically using the styles you\n"
+"                        used in your description (heading 1, heading 2, ...)"
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:150
 #, python-format

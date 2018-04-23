@@ -31,7 +31,7 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
@@ -359,7 +359,7 @@ msgstr "Récupérer la transaction"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
 msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Récupérez le montant depuis Odoo une fois l'acheminement effectué."
+msgstr "Récupérez le montant depuis GStock une fois l'acheminement effectué."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city

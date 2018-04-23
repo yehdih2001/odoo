@@ -78,8 +78,9 @@ msgstr ""
 msgid "Odoo helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
-msgstr ""
-
+msgstr "GStock helps you easily track all activities related to\n"
+"            a customer: discussions, history of business opportunities,\n"
+"            documents, etc."
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_industry_menu
 msgid "Sectors of Activity"

@@ -28,8 +28,7 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:156
 #, python-format
 msgid "(Community Edition)"
-msgstr ""
-
+msgstr "(GStock)"
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:172
@@ -111,8 +110,7 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
 msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr ""
-
+msgstr "Follow these implementation guides to get the most out of GStock."
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
@@ -132,8 +130,7 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
 msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
-msgstr ""
-
+msgstr "Help us spread the word: Share GStock's awesomeness with your friends!"
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:37
@@ -195,22 +192,19 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
 msgid "Odoo"
-msgstr ""
-
+msgstr "GStock"
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
 msgid "Odoo Enterprise"
-msgstr ""
-
+msgstr "GStock Enterprise"
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
 msgid "Odoo S.A."
-msgstr ""
-
+msgstr "GStock"
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:79

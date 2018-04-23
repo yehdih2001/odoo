@@ -75,7 +75,7 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-12 15:37+0000\n"
 "PO-Revision-Date: 2018-03-12 15:37+0000\n"
@@ -375,7 +375,7 @@ msgstr ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Fourni par <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Fourni par <a target=\"_blank\" href=\"https://www.gstock.mr\">GStock</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -635,7 +635,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr "<span title=\"Balance in Odoo\">Solde en GL</span>"
+msgstr "<span title=\"Balance in GStock\">Solde en GL</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -700,7 +700,7 @@ msgstr "<span>Vue</span>"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>-L'équipe Odoo</strong>"
+msgstr "<strong>-L'équipe GStock</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -809,7 +809,7 @@ msgid ""
 "<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
 msgstr ""
-"<strong>Créer la facture dans Odoo</strong><br/> avec la bonne date "
+"<strong>Créer la facture dans GStock</strong><br/> avec la bonne date "
 "d'échéance, et créer le fournisseur s'il n'existe pas encore."
 
 #. module: account
@@ -1000,7 +1000,7 @@ msgid ""
 "                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
 msgstr ""
 "<strong>Lettrez avec des transactions existantes</strong><br/>\n"
-"                                        Dans ce cas, Odoo devrait automatiquement faire la correspondance entre le relevé bancaire et la transaction du chèque enregistrée précédemment."
+"                                        Dans ce cas, GStock devrait automatiquement faire la correspondance entre le relevé bancaire et la transaction du chèque enregistrée précédemment."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1099,7 +1099,7 @@ msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
 "familiarizing yourself with Odoo:</strong>"
 msgstr ""
-"<strong>Tester les trois scénarios suivants pour vous familiariser avec Odoo"
+"<strong>Tester les trois scénarios suivants pour vous familiariser avec GStock"
 " :</strong>"
 
 #. module: account
@@ -1107,7 +1107,7 @@ msgstr ""
 msgid ""
 "<strong>There are three different levels of access rights in Odoo:</strong>"
 msgstr ""
-"<strong>Il y a 3 niveaux différents de droits d'accès dans Odoo :</strong>"
+"<strong>Il y a 3 niveaux différents de droits d'accès dans GStock :</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -1240,7 +1240,7 @@ msgid ""
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
 msgstr ""
-"Un produit dans Odoo est quelque chose que vous pouvez \n"
+"Un produit dans GStock est quelque chose que vous pouvez \n"
 "vendre ou acheter qu'il s'agisse de biens, de consommables \n"
 "ou de services.\n"
 "Choisissez comment vous souhaitez créer vos produits :"
@@ -1869,8 +1869,8 @@ msgid ""
 "for the past month, past two months, and so on."
 msgstr ""
 "La Balance âgée du Partenaire est un rapport plus détaillé de vos créances "
-"par périodes. Odoo calcule un tableau de solde créditeur par date de début. "
-"Donc, si vous demandez une période de 30 jours alors Odoo génère une analyse"
+"par périodes. GStock calcule un tableau de solde créditeur par date de début. "
+"Donc, si vous demandez une période de 30 jours alors GStock génère une analyse"
 " des créanciers pour le mois passé, les deux derniers mois, et ainsi de "
 "suite."
 
@@ -4111,7 +4111,7 @@ msgid ""
 "Date from which the accounting is managed in Odoo. It is the date of the "
 "opening entry."
 msgstr ""
-"Date à compter de laquelle la comptabilité est gérée dans Odoo. Il s'agit de"
+"Date à compter de laquelle la comptabilité est gérée dans GStock. Il s'agit de"
 " la date de l'écriture d'ouverture."
 
 #. module: account
@@ -4703,7 +4703,7 @@ msgstr "Fermeture de la Caisse"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Enjoy your Odoo experience,"
-msgstr "Profitez de votre expérience Odoo,"
+msgstr "Profitez de votre expérience GStock,"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -5048,7 +5048,7 @@ msgid ""
 "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Au nom de l'équipe Odoo,<br/>\n"
+"Au nom de l'équipe GStock,<br/>\n"
 "                            Fabien Pinckaers, fondateur"
 
 #. module: account
@@ -5555,7 +5555,7 @@ msgid ""
 "If you want to be able to send customer statements from Odoo, you must:"
 msgstr ""
 "Si vous voulez être en mesure d'envoyer des déclarations de clients depuis "
-"Odoo, vous devez:"
+"GStock, vous devez:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -5566,7 +5566,7 @@ msgid ""
 "                        that have not been paid or payments that have not been reconciled."
 msgstr ""
 "Si vous voulez être capable d'envoyer à vos clients leurs rappels de paiemet\n"
-"                        depuis Odoo, vous devez enregistrer toutes les transactions en circulation\n"
+"                        depuis GStock, vous devez enregistrer toutes les transactions en circulation\n"
 "                        dans les comptes payables et recevables. Celles-ci seraient des factures\n"
 "                        qui n'ont pas été payées ou des paiements qui n'ont pas été lettrés."
 
@@ -5672,7 +5672,7 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "In Odoo,"
-msgstr "Dans Odoo,"
+msgstr "Dans GStock,"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
@@ -6151,7 +6151,7 @@ msgstr ""
 "C'est une pratique commune de changer votre logiciel comptable à la fin de "
 "l'exercice. Ceci vous permet d'avoir moins de données à importer et de "
 "balances à paramétrer. Si vous planifiez de le faire ainsi, nous vous "
-"recommandons d'utiliser Odoo pour votre facturation et vos paiements "
+"recommandons d'utiliser GStock pour votre facturation et vos paiements "
 "maintenant, et de déplacer toutes vos transactions comptables plus tard."
 
 #. module: account
@@ -6898,9 +6898,9 @@ msgid ""
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Odoo.\n"
+"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à GStock.\n"
 "Paiement électronique : soyez payé automatiquement par un acquéreur en demandant une transaction sur une carte enregistrée par le client lors de l'achat ou de l'inscription en ligne (jeton de paiement).\n"
-"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Odoo, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
+"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans GStock, vous pouvez rapprocher la transaction et le dépôt groupé. Activez cette option dans les paramètres."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_abstract_payment_payment_method_id
@@ -6913,10 +6913,10 @@ msgid ""
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à Odoo.\n"
+"Paiement manuel : soyez payé en espèces, par chèque ou par tout autre moyen externe à GStock.\n"
 "Paiement électronique : soyez payé automatiquement par un acquéreur en demandant une transaction sur une carte enregistrée par le client lors de l'achat ou de l'inscription en ligne (jeton de paiement).\n"
-"Chèque : payez par chèque en l'imprimant depuis Odoo.\n"
-"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans Odoo, vous pouvez rapprocher la transaction et le dépôt groupé. Pour activer le dépôt groupé, vous devez installer le module account_batch_deposit (compte-dépôt-groupé).\n"
+"Chèque : payez par chèque en l'imprimant depuis GStock.\n"
+"Dépôt groupé : encaissez plusieurs chèques clients à la fois en générant un dépôt groupé à envoyer à votre banque. Lors de l'encodage du relevé bancaire dans GStock, vous pouvez rapprocher la transaction et le dépôt groupé. Pour activer le dépôt groupé, vous devez installer le module account_batch_deposit (compte-dépôt-groupé).\n"
 "Virement SEPA : payez en envoyant un fichier de virement SEPA à votre banque. Pour activer les virements SEPA, vous devez installer le module account_sepa (compte-sepa)"
 
 #. module: account
@@ -6926,8 +6926,8 @@ msgid ""
 "Check:Pay bill by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Paiement manuel : payez en espèces ou par tout autre moyen externe à Odoo.\n"
-"Chèque : payez par chèque en l'imprimant depuis Odoo.\n"
+"Paiement manuel : payez en espèces ou par tout autre moyen externe à GStock.\n"
+"Chèque : payez par chèque en l'imprimant depuis GStock.\n"
 "Virement SEPA : payez en envoyant un fichier de virement SEPA à votre banque. Activez cette option dans les paramètres."
 
 #. module: account
@@ -7421,7 +7421,7 @@ msgstr "octobre"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "Odoo Accounting has many free extra-features:"
-msgstr "La comptabilité d'Odoo a plusieurs fonctionnalités additionnelles :"
+msgstr "La comptabilité dans GStock a plusieurs fonctionnalités additionnelles :"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
@@ -7429,7 +7429,7 @@ msgid ""
 "Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo vous permet de lettre une ligne de relevé directement avec la(es) "
+"GStock vous permet de lettre une ligne de relevé directement avec la(es) "
 "facture(s) de ventes ou d'achats associée(s)."
 
 #. module: account
@@ -7438,7 +7438,7 @@ msgid ""
 "Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo vous permet de lettrer une ligne de relevé directement avec\n"
+"GStock vous permet de lettrer une ligne de relevé directement avec\n"
 "  la facture de ventes ou d'achats associée."
 
 #. module: account
@@ -7449,7 +7449,7 @@ msgid ""
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
 msgstr ""
-"Odoo crée automatiquement une écriture par document comptable : facture, "
+"GStock crée automatiquement une écriture par document comptable : facture, "
 "avoir, paiement fournisseur, relevés bancaires, etc. Donc, vous devriez "
 "enregistrer des écritures manuelles seulement/principalement pour des "
 "opérations diverses."
@@ -7460,7 +7460,7 @@ msgid ""
 "Odoo can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
 msgstr ""
-"Odoo peut gérer plusieurs sociétés, mais nous suggérons de tout installer "
+"GStock peut gérer plusieurs sociétés, mais nous suggérons de tout installer "
 "pour votre première société avant de configurer les autres."
 
 #. module: account
@@ -7469,7 +7469,7 @@ msgid ""
 "Odoo has already preconfigured a few taxes according to your "
 "country.<br/>Simply review them and check if you need more."
 msgstr ""
-"Odoo a déjà préconfiguré quelques taxes selon votre pays. <br/>Simplement "
+"GStock a déjà préconfiguré quelques taxes selon votre pays. <br/>Simplement "
 "les révisez et vérifiez si vous en avez besoin de plus."
 
 #. module: account
@@ -7479,7 +7479,7 @@ msgid ""
 " need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr ""
-"Odoo devrait faire la plupart du travail de lettrage, donc vous devriez n'en"
+"GStock devrait faire la plupart du travail de lettrage, donc vous devriez n'en"
 " réviser que quelques-uns quand le bouton <strong>\"Lettrer les "
 "écritures\"</strong> apparait sur votre tableau de bord des factures "
 "fournisseurs."
@@ -7492,7 +7492,7 @@ msgid ""
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"La facturation électronique d'Odoo permet de faciliter et d'accélérer la "
+"La facturation électronique dans GStock permet de faciliter et d'accélérer la "
 "collection des paiements clients. Votre client reçoit la facture par email "
 "et il peut payer en ligne et/ou l'importer dans son propre système."
 
@@ -8775,7 +8775,7 @@ msgid ""
 "                        but you can start using Odoo without it by:"
 msgstr ""
 "Enregistrer les factures et paiements en circulation peut être une énorme "
-"entreprise, mais vous pouvez commencer à utiliser Odoo sans en :"
+"entreprise, mais vous pouvez commencer à utiliser GStock sans en :"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10729,7 +10729,7 @@ msgid ""
 "This guide will help you get started with Odoo Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
-"Ce guide vous aidera à débuter avec Odoo Accounting.\n"
+"Ce guide vous aidera à débuter avec GStock Accounting.\n"
 "Une fois que c'est fait, vous bénéficierez de :"
 
 #. module: account
@@ -10935,7 +10935,7 @@ msgid ""
 " Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
 msgstr ""
-"Pour gérer la taxe appliquée quand on facture une société, Odoo utilise le "
+"Pour gérer la taxe appliquée quand on facture une société, GStock utilise le "
 "concept de Position Fiscale: elles servent à automatiquement configurer la "
 "bonne taxe et/ou comptes en fonction du pays et de l'état du client."
 
@@ -11608,7 +11608,7 @@ msgid ""
 "                                        data."
 msgstr ""
 "Nous pouvons gérer le processus complet d'importation\n"
-"pour vous : envoyez simplement à votre gestionnaire de projet Odoo\n"
+"pour vous : envoyez simplement à votre gestionnaire de projet GStock\n"
 "un fichier au format CSV contenant toutes vos\n"
 "données."
 
@@ -11621,7 +11621,7 @@ msgid ""
 "                                        products."
 msgstr ""
 "Nous pouvons nous occuper de tout le processus d'import\n"
-"pour vous: envoyez simplement à votre Project Manager Odoo\n"
+"pour vous: envoyez simplement à votre Project Manager GStock\n"
 "un fichier CSV contenant tous les\n"
 "produits."
 

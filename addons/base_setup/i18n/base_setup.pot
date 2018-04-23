@@ -143,8 +143,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr ""
-
+msgstr "Extract and analyze GStock data from Google Spreadsheet"
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings_report_footer
 msgid "Footer text displayed at the bottom of all reports."
@@ -307,8 +306,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Use external pads in Odoo Notes"
-msgstr ""
-
+msgstr "Use external pads in GStock Notes"
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Users"

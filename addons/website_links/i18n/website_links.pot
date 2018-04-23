@@ -170,8 +170,7 @@ msgstr ""
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "Those trackers can be used in Google Analytics to track clicks and visitors, or in Odoo reports to track opportunities and related revenues."
-msgstr ""
-
+msgstr "Those trackers can be used in Google Analytics to track clicks and visitors, or in GStock reports to track opportunities and related revenues."
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid "URL"

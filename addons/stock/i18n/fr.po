@@ -49,7 +49,7 @@
 # fr trans <e2ffr05@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: GStock Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
@@ -170,7 +170,7 @@ msgstr ", si la comptabilité ou les achats sont installés"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "- The Odoo Team"
-msgstr "- L'équipe Odoo"
+msgstr "- L'équipe GStock"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
@@ -538,7 +538,7 @@ msgstr "<strong>Quantité délivrée</strong>"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
-msgstr "<strong>Profitez de votre gestion d'inventaire avec Odoo!</strong>"
+msgstr "<strong>Profitez de votre gestion d'inventaire avec GStock!</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -1187,7 +1187,7 @@ msgid ""
 "Odoo will not automatically generate a back order."
 msgstr ""
 "En changeant la quantité ici, vous acceptez la nouvelle quantité comme étant"
-" la quantité complète : Odoo ne créera pas automatiquement de reliquat."
+" la quantité complète : GStock ne créera pas automatiquement de reliquat."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -1195,7 +1195,7 @@ msgid ""
 "By default, Odoo measures products by 'units', which are generic and "
 "represent just about anything"
 msgstr ""
-"Par défaut, Odoo mesure les produits par les «unités», qui sont générique et"
+"Par défaut, GStock mesure les produits par les «unités», qui sont générique et"
 "  qui peuvent représenter à peu près tout"
 
 #. module: stock
@@ -2052,7 +2052,7 @@ msgid ""
 "            consumptions, inventories, etc."
 msgstr ""
 "Définissez vos emplacements de façon à ce qu'ils reflètent la structure de votre entrepôt et de votre\n"
-" organisation. Odoo est capable de gérer des emplacements physiques\n"
+" organisation. GStock est capable de gérer des emplacements physiques\n"
 " (entrepôts, étagères, bacs, etc.), des emplacements de partenaire (clients,\n"
 " fournisseurs) ainsi que des emplacements virtuels. Ces derniers servent de contrepartie aux\n"
 " opérations de stock, telles que les ordres de fabrication,\n"
@@ -2419,8 +2419,8 @@ msgid ""
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Toute opération de stock dans Odoo déplace des articles d'un emplacement à "
-"un autre. Par exemple, si vous recevez des articles d'un fournisseur, Odoo "
+"Toute opération de stock dans GStock déplace des articles d'un emplacement à "
+"un autre. Par exemple, si vous recevez des articles d'un fournisseur, GStock "
 "déplacera les articles de l'emplacement Fournisseurs vers l'emplacement "
 "Stock. Chaque rapport peut porter sur un emplacement physique, un "
 "emplacement partenaire ou un emplacement virtuel."
@@ -2514,7 +2514,7 @@ msgid ""
 "For the Odoo Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"De la part de l'équipe Odoo,<br/>\n"
+"De la part de l'équipe GStock,<br/>\n"
 "Fabien Pinckaers, Fondateur"
 
 #. module: stock
@@ -2909,7 +2909,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will show which products are reserved "
 "(lot/serial number, source location, source package)."
 msgstr ""
-"Si cette case est cochée, Odoo affichera les articles réservés (numéro de "
+"Si cette case est cochée, GStock affichera les articles réservés (numéro de "
 "lot/série, emplacement d'origine, colis d'origine)."
 
 #. module: stock
@@ -2980,7 +2980,7 @@ msgid ""
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
 msgstr ""
-"Si vous configurez l'approvisionnement automatiquement, Odoo génère automatiquement\n"
+"Si vous configurez l'approvisionnement automatiquement, GStock génère automatiquement\n"
 "des ordres d'approvisionnement. Vous ne devez pas vous en soucier, mais\n"
 "parfois le système peut rester bloqué sans générer de\n"
 "document correspondant, c'est souvent dû à un problème de configuration."
@@ -3054,8 +3054,8 @@ msgid ""
 "                        Odoo will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
-"Dans Odoo, vos produits sont réapprovisionnés en fonction de<strong>règles de réapprovisionnement</strong>.\n"
-"                        Odoo vous proposera automatiquement de commander de nouveau un produit si vous\n"
+"Dans GStock, vos produits sont réapprovisionnés en fonction de<strong>règles de réapprovisionnement</strong>.\n"
+"                        GStock vous proposera automatiquement de commander de nouveau un produit si vous\n"
 "                        commencez à manquer de stock."
 
 #. module: stock
@@ -3448,7 +3448,7 @@ msgid ""
 "                        If you want to do that, contact your Odoo project manager."
 msgstr ""
 "Il est aussi possible d'importer votre inventaire de départ depuis un fichier Excel ou CSV.\n"
-"Si vous voulez faire cela, contactez votre gestionnaire de projet Odoo."
+"Si vous voulez faire cela, contactez votre gestionnaire de projet GStock."
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:254
@@ -3690,7 +3690,7 @@ msgid ""
 "Like with the sales flow, Odoo inventory management is\n"
 "                        fully integrated with the purchase app."
 msgstr ""
-"Comme avec le flux de vente, Odoo Inventaire est\n"
+"Comme avec le flux de vente, GStock Inventaire est\n"
 "complètement intégré avec l'application Achat."
 
 #. module: stock
@@ -4040,7 +4040,7 @@ msgid ""
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements."
 msgstr ""
-"La plupart des opérations sont proposées automatiquement par Odoo en "
+"La plupart des opérations sont proposées automatiquement par GStock en "
 "fonction de votre configuration, mais vous pouvez aussi créer des mouvements"
 " de stock manuellement."
 
@@ -4306,13 +4306,13 @@ msgid ""
 "Odoo handles <strong>advanced push/pull routes configuration</strong>, for "
 "example:"
 msgstr ""
-"Odoo gère <strong>les règles avancées en flux poussé/tiré</strong>, par "
+"GStock gère <strong>les règles avancées en flux poussé/tiré</strong>, par "
 "exemple: "
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "Odoo has preconfigured <strong>one Warehouse</strong> for you."
-msgstr "Odoo a préconfiguré <strong>un entrepôt</strong> pour vous. "
+msgstr "GStock a préconfiguré <strong>un entrepôt</strong> pour vous. "
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -4321,7 +4321,7 @@ msgid ""
 "                        invoicing process. Everything is automated from the initial\n"
 "                        quotation to the delivery and the final invoice."
 msgstr ""
-"La gestion de stock de Odoo avec les ventes et le processus de facturation. "
+"La gestion de stock de GStock avec les ventes et le processus de facturation. "
 "Tout est automatisé depuis le devis jusqu'à la livraison et la facture "
 "finale."
 
@@ -4331,7 +4331,7 @@ msgid ""
 "Odoo is able to run advanced traceability by using Product Lots and Serial\n"
 "                        Numbers, usually identified by bar codes stuck on the products."
 msgstr ""
-"Odoo peut gérer de la tracabilité avancée par lots ou par numéros de séries,"
+"GStock peut gérer de la tracabilité avancée par lots ou par numéros de séries,"
 " habituellement identifiés par des codes à bares sur les produits."
 
 #. module: stock
@@ -4341,7 +4341,7 @@ msgid ""
 "convert units within the same category, for example, liters to gallons in "
 "the volume category"
 msgstr ""
-"Bien sûr, vous pouvez ajouter les votres. Notez que Odoo peut convertir des "
+"Bien sûr, vous pouvez ajouter les votres. Notez que GStock peut convertir des "
 "unités de mesure au sein de la même catégorie, par exemple, des litres en "
 "gallons dans la catégorie volume"
 
@@ -6792,7 +6792,7 @@ msgid ""
 "This guide helps getting started with Odoo Inventory.\n"
 "                        Once you are done, you will benefit from:"
 msgstr ""
-"Ce guide vous aidera a débuter avec l'Inventaire Odoo.\n"
+"Ce guide vous aidera a débuter avec l'Inventaire GStock.\n"
 "Une fois que c'est fait, vous bénéficierez de:"
 
 #. module: stock
@@ -7544,7 +7544,7 @@ msgstr ""
 "Nous pouvons gérer le processus d'import\n"
 "pour vous : envoyez simplement un fichier CSV \n"
 "contenant toutes vos données à votre gestionnaire de\n"
-"projet Odoo."
+"projet GStock."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -7557,12 +7557,12 @@ msgstr ""
 "Nous pouvons gérer le processus d'import\n"
 "pour vous : envoyez simplement un fichier CSV \n"
 "contenant tous vos produits à votre gestionnaire de\n"
-"projet Odoo."
+"projet GStock."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "We hope this guide helped you implement Odoo Inventory."
-msgstr "Nous espérons que ce guide vous a aidé à implémenter Odoo Inventory."
+msgstr "Nous espérons que ce guide vous a aidé à implémenter GStock Inventory."
 
 #. module: stock
 #: code:addons/stock/models/barcode.py:11
@@ -7660,7 +7660,7 @@ msgid ""
 "Quantity."
 msgstr ""
 "Quand le stock virtuel tombe en dessous de la quantité mini indiquée dans de"
-" champ, Odoo génère un approvisionnement pour ramener la quantité prévue à "
+" champ, GStock génère un approvisionnement pour ramener la quantité prévue à "
 "la quantité maxi."
 
 #. module: stock
@@ -7670,7 +7670,7 @@ msgid ""
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Quand le stock virtuel tombe en dessous de la quantité mini, Odoo génère un "
+"Quand le stock virtuel tombe en dessous de la quantité mini, GStock génère un "
 "approvisionnement pour ramener la quantité prévue à la quantité indiquée "
 "ici."
 
@@ -7680,7 +7680,7 @@ msgid ""
 "When you run the schedulers, Odoo tries to reserve the available stock to fulfill the existing pickings\n"
 "                and verify if some reordering rules should be triggered."
 msgstr ""
-"Quand vous lancez les planificateurs, Odoo essaie de réserver le stock "
+"Quand vous lancez les planificateurs, GStock essaie de réserver le stock "
 "disponible pour satisfaire les approvisionnements en cours et vérifie si des"
 " règles de réassort doivent être activées."
 
@@ -7756,7 +7756,7 @@ msgid ""
 " generate a procurement request to increase the stock up to the maximum "
 "quantity."
 msgstr ""
-"Vous pouvez définir vos règles de stock minimum, ainsi Odoo créera automatiquement des ordres de production brouillon ou des bons de commande selon le niveau du stock. Lorsque le stock virtuel d'un article (= le stock présent moins toutes les commandes et réservations confirmées) atteint la quantité minimum, Odoo crée une demande d'approvisionnement pour atteindre le stock maximum.\n"
+"Vous pouvez définir vos règles de stock minimum, ainsi GStock créera automatiquement des ordres de production brouillon ou des bons de commande selon le niveau du stock. Lorsque le stock virtuel d'un article (= le stock présent moins toutes les commandes et réservations confirmées) atteint la quantité minimum, GStock crée une demande d'approvisionnement pour atteindre le stock maximum.\n"
 "            "
 
 #. module: stock
@@ -7998,7 +7998,7 @@ msgid ""
 "                        Odoo will process all the <i>reserved</i> quantities."
 msgstr ""
 "Vous n'avez saisi aucune quantité <i>traitée</i> . Si vous cliquez sur <i>Appliquer</i>\n"
-"                        Odoo traitera toutes les quantités <i>réservées</i>."
+"                        GStock traitera toutes les quantités <i>réservées</i>."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:44
@@ -8146,7 +8146,7 @@ msgid ""
 "Odoo do it automatically while validating"
 msgstr ""
 "soit par une mise à jour manuelle de la quantité terminée sur les lignes de "
-"produit, soit en laissant Odoo le faire automatiquement quand vous validez"
+"produit, soit en laissant GStock le faire automatiquement quand vous validez"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -8156,8 +8156,8 @@ msgid ""
 "validating"
 msgstr ""
 "soit par une mise à jour manuelle de la quantité terminée sur les lignes de "
-"produit, soit en le scannant à l'aide de l'application code-barres d'Odoo, "
-"soit en laissant Odoo le faire automatiquement quand vous validez"
+"produit, soit en le scannant à l'aide de l'application code-barres dans GStock, "
+"soit en laissant GStock le faire automatiquement quand vous validez"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
